@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+      <h2>Basic Form</h2>
+      <form method="POST" action="mailto:saygin.guven@itdcanada.ca" enctype="text/plain">
+         Full Name<br>
+         <input type="text" name="fullName" placeholder="john doe"><br>
+         Email<br>
+         <input type="email" name="Email" placeholder="john.doe@gmail.com"><br>
+         Phone number<br>
+         <input type="tel" name="phonenumber" placeholder="(604) 123 45 67"><br>
+         Address<br>
+         <input type="text" name="address" placeholder="475 Granville, Vancouver"><br>
+         Message<br>
+         <textarea rows="5" cols="60" name="comment" placeholder="Enter text here..."></textarea><br>
+         <input type="submit" value="Submit">
+      </form>
+      <br>
+      <hr>
+      <h2>Attributes</h2>
+      <form>
+         <input type="text" name="..." autofocus><br>
+         <input type="text" name="..." autocomplete="off"><br>
+         <input type="text" name="..." style="direction:RTL"><br>
+         <input type="number" value="150" disabled><br>
+         <input type="button" formtarget="_blank" value="Submit"><br>
+         <input style="height: 25px; width: 50%;"><br>
+      </form>
+      <br>
+      <hr>
+      <h2>Data List</h2>
+      <form>
+         <input list="browsers" name="browser">
+         <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+         </datalist>
+         <input type="submit">
+      </form>
+      <br>
+      <hr>
+      <h2>Login</h2>
+      <form>
+      <div>
+      <label for="user_name">User Name:</label>
+      <input type="password" name="password">
+      </div>
+      <div>
+      <label for="password"> Password:</label>
+      <input type="password" name="password">
+      </div>
+      </form>
+      <br>
+      <hr>
+
+      <h2>Checkbox!</h2>
+      <form>
+      	<input type="checkbox" name="html5" checked> HTML5
+      	<input type="checkbox" name="css3" checked> CSS3
+      	<input type="checkbox" name="Javascript"> Javascript
+      	<input type="checkbox" name="Bootsrapt"> Bootsrapt
+      </form>
+
+      <br>
+      <hr>
+
+      <h2>Radio</h2>
+      <form>
+      	<input type="radio" name="gender"> Male
+      	<input type="radio" name="gender"> Female
+      	<input type="radio" name="gender"> Rather not say
+      </form>
+   </body>
+</html>
