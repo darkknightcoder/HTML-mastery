@@ -1,0 +1,24 @@
+#Logo{
+	width: 30px;
+	height: 30px;
+}
+.flag{
+	width: 45px;
+	height: 30px;
+}
+.container.fluid{
+	flex-direction: row;
+}
+.capA{
+	text-align: center;
+	height: 50px;
+}
+/*.cont{
+	float: left;
+}
+.containers{
+	float: right;
+}
+.contain{
+	float: right;
+}*/
