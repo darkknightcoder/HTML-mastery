@@ -1,0 +1,22 @@
+#Geo{
+	font-family: Times New Roman;
+	color: #fff;
+}
+.index{
+	background-image: url("../images/Hi.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.container{
+	color: #fff;
+}
+#Que{
+	font-family: Times New Roman;
+	color: #fff;
+}
+#Far{
+	font-family: Times New Roman;
+	color: #fff;
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>Hello, world!</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body class="index">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+         <a class="navbar-brand" href="#">Final Exam</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#Geo">Geometry <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#Far">Fahrenheit to Celsius</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#Que">Questions</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container">
+         <h1 id="Geo">Geometry Calculations</h1>
+         <br>
+         <hr>
+         <h4>Hours of work</h4>
+         <input id="goh" type="number" name="Hours">
+         <h4>Hourly rate</h4>
+         <input id="an" type="number" name="Rate">
+         <br>
+         <br>
+         <button type="button" onclick="salary()" class="btn btn-success">Calculate Income</button>
+      </div>
+      <br>
+      <hr>
+      <div class="container">
+         <h1 id="Far">Fahrenheit to Celcius</h1>
+         <input id="fahren" type="number" name="Fahrenheit">
+         <button type="button" class="btn btn-warning" onclick="convert()">Convert</button>
+         <p id="result"></p>
+      </div>
+      <br>
+      <hr>
+      <div class="container">
+         <h1 id="Que">Questions</h1>
+         <p><b>What is your favourite car?</b></p>
+         <input type="radio" name="car" class="Van"> Audi
+         <input type="radio" name="car" class="Lambo"> Lambo
+         <input type="radio" name="car" class="Van"> Ferrari
+         <input type="radio" name="car" class="Van"> Pagani
+         <br>
+         <p><b>What is the most polluted city in the world?</b></p>
+         <input type="radio" name="city" class="Van"> Vancouver
+         <input type="radio" name="city" class="Van"> LA
+         <input type="radio" name="city" class="Teh"> Tehran
+         <input type="radio" name="city" class="Van"> Tokyo
+         <br>
+         <button type="button" class="btn btn-danger" onclick="check()">Check</button>
+         <br>
+      </div>
+      <!-- Optional JavaScript -->
+      <script src="js/main.js"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
